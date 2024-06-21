@@ -1,0 +1,115 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar.scrolled {
+  background: #0b6f42; /* Color de fondo cuando se hace scroll */
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.nav-links {
+  margin-right: 80px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 7px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-links li a.active {
+  color: #ffffff;
+  background-color: #0b6f42;
+  border-radius: 30px;
+}
+
+.nav-links li a:hover {
+  color: #0b6f42;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 7px 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-button:hover {
+  color: #0b6f42;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: calc(100% + 10px); 
+  left: 50%;
+  transform: translateX(-30%);
+  border-radius: 20px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) translateX(-70%);
+}
+
+.dropdown-menu li {
+  text-align: center;
+  list-style: none;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0c040;
+  border-radius: 30px;
+}
+
+.dropdown-menu li {
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0c040;
+  color: #0b6f42;
+}
