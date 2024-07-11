@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-logo">
-        <img src="/path/to/logo.png" alt={t('Sano pero Rico')} />
+        <img src="/LOGO24.png" alt={t('Sano pero Rico')} />
       </div>
       <div className="footer-sections">
         <div className="footer-section">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 {t('Sano Pero Rico')} | {t('Diseño y desarrollo por Bebo')}</p>
+        <p>© 2024 {t('Sano Pero Rico')} | {t('Diseño y desarrollo por Sano pero Rico')}</p>
       </div>
     </footer>
   );

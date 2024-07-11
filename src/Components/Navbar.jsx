@@ -38,14 +38,11 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="logo">
-        <img src="/path/to/logo.png" alt="Green Beats Logo" />
+        <img src="/LOGO24.png" alt="Healthy" />
       </div>
       <ul className="nav-links">
         <li>
           <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>{t('Home')}</NavLink>
-        </li>
-        <li>
-          <NavLink to="/Acerca" className={({ isActive }) => (isActive ? 'active' : '')}>{t('Acerca de Nosotros')}</NavLink>
         </li>
         <li className="dropdown">
           <button onClick={toggleDropdown} className="dropdown-button">

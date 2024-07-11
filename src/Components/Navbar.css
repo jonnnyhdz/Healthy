@@ -12,11 +12,12 @@
 }
 
 .navbar.scrolled {
-  background: #0b6f42; /* Color de fondo cuando se hace scroll */
+  background: #0b6f42; 
 }
 
 .logo img {
-  max-height: 50px;
+  max-height: 60px;
+  margin-left: 80px;
 }
 
 .nav-links {

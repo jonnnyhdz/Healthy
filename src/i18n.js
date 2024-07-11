@@ -14,8 +14,8 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "The Best Cold Pressed Juices in All of Chile!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruit and vegetables and nothing else, in a 100% recycled bottle.",
         "Ir a comprar": "Shop Now",
-        "Disfruta de la Frescura de Nuestra Selección de Jugos!": "Enjoy the Freshness of Our Juice Selection!",
-        "Jugos 100% naturales, sin aditivos ni conservantes.": "100% natural juices, no additives or preservatives.",
+        "Come sano pero rico.": "Eat healthy but tasty!",
+        " 100% natural": "100% natural",
         "Ver más": "See More",
         "Energía Natural en Cada Botella!": "Natural Energy in Every Bottle!",
         "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Nourish your body with our cold-pressed juices.",
@@ -59,7 +59,14 @@ i18n.use(initReactI18next).init({
         "Trabaja para promover estilos de vida saludables, educando a sus consumidores sobre los beneficios de una dieta equilibrada y nutritiva.": "Works to promote healthy lifestyles, educating its consumers about the benefits of a balanced and nutritious diet.",
         "Calidad":"Quality",
         "Innovación":"Innovation",
-        "Compromiso":"Commitment"
+        "Compromiso":"Commitment",
+        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"50 ml energy drink made with turmeric, lemon, pepper and orange. Rich in vitamins, it helps you start the day with energy.",
+        "Elixir Energético":"Energy Elixir",
+        "Avena Frutal":"Fruit Oatmeal",
+        "Sandwich Integral":"Whole Wheat Sandwich",
+        "Batido de Naranja":"Orange Smoothie",
+        "Batido de Piña":"Orange Smoothie",
+        "Waffle 0":"Waffle 0"
       }
     },
     es: {
@@ -73,8 +80,8 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "Los Jugos Prensados en Frío Más Ricos de Todo Chile!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruta y verdura y nada más, en una botella 100% reciclada.",
         "Ir a comprar": "Ir a comprar",
-        "Disfruta de la Frescura de Nuestra Selección de Jugos!": "Disfruta de la Frescura de Nuestra Selección de Jugos!",
-        "Jugos 100% naturales, sin aditivos ni conservantes.": "Jugos 100% naturales, sin aditivos ni conservantes.",
+        "Come sano pero rico.": "Come sano pero rico.",
+        "100% natural": "100% natural",
         "Ver más": "Ver más",
         "Energía Natural en Cada Botella!": "Energía Natural en Cada Botella!",
         "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Nutre tu cuerpo con nuestros jugos prensados en frío.",
@@ -118,7 +125,14 @@ i18n.use(initReactI18next).init({
         "Trabaja para promover estilos de vida saludables, educando a sus consumidores sobre los beneficios de una dieta equilibrada y nutritiva.": "Trabaja para promover estilos de vida saludables, educando a sus consumidores sobre los beneficios de una dieta equilibrada y nutritiva.",
         "Calidad":"Calidad",
         "Innovación":"Innovación",
-        "Compromiso":"Compromiso"
+        "Compromiso":"Compromiso",
+        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.",
+        "Elixir Energético":"Elixir Energético",
+        "Avena Frutal":"Avena Frutal",
+        "Sandwich Integral":"Sandwich Integral",
+        "Batido de Naranja":"Batido de Naranja",
+        "Batido de Piña":"Batido de Piña",
+        "Waffle 0":"Waffle 0"
       }
     },
     nl: {
@@ -132,8 +146,8 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "De beste koudgeperste sappen van heel Chili!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruit en groenten en niets anders, in een 100% gerecyclede fles.",
         "Ir a comprar": "Nu kopen",
-        "Disfruta de la Frescura de Nuestra Selección de Jugos!": "Geniet van de frisheid van onze selectie sappen!",
-        "Jugos 100% naturales, sin aditivos ni conservantes.": "100% natuurlijke sappen, zonder toevoegingen of conserveermiddelen.",
+        "Come sano pero rico.": "Eet gezond maar lekker",
+        "100% Natural": "100% natuurlijke",
         "Ver más": "Bekijk meer",
         "Energía Natural en Cada Botella!": "Natuurlijke energie in elke fles!",
         "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Voed je lichaam met onze koudgeperste sappen.",
@@ -177,7 +191,14 @@ i18n.use(initReactI18next).init({
         "Trabaja para promover estilos de vida saludables, educando a sus consumidores sobre los beneficios de una dieta equilibrada y nutritiva.": "Werkt aan het bevorderen van een gezonde levensstijl door consumenten voor te lichten over de voordelen van een uitgebalanceerd en voedzaam dieet.",
         "Calidad":"Kwaliteit",
         "Innovación":"Innovatie",
-        "Compromiso":"Verbintenis"
+        "Compromiso":"Verbintenis",
+        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"50 ml energiedrank op basis van kurkuma, citroen, peper en sinaasappel. Rijk aan vitamines, helpt je de dag energiek te beginnen.",
+        "Elixir Energético":"Energie Elixer",
+        "Avena Frutal":"Fruit Havermout",
+        "Sandwich Integral":"Volkoren boterham",
+        "Batido de Naranja":"Sinaasappel Smoothie",
+        "Batido de Piña":"Ananas Smoothie",
+        "Waffle 0":"Wafel 0"
       }
     },
   },
