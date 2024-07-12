@@ -11,7 +11,7 @@ const Home = () => {
 
   const slides = [
     {
-      image: "/1.jpg",
+      image: "/1.png",
       title: t("100% Natural"),
       text: t("Come sano pero rico."),
       buttonText: t("Ver más"),
@@ -73,6 +73,12 @@ const Home = () => {
     },
   ];
 
+  const banners = [
+    "/banner1.png",
+    "/banner2.png",
+    "/banner3.png",
+  ];
+
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -128,7 +134,7 @@ const Home = () => {
           <h2>{t("Elixir Energético")}</h2>
           <p>
             {t(
-              "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía."
+              "Nuestro producto estrella de la empresa, una bebida energética de 50 ml cuidadosamente elaborada con ingredientes naturales como cúrcuma, limón, pimienta y naranja. Esta poderosa combinación no solo es rica en vitaminas, sino que también está diseñada para ayudarte a comenzar el día con energía y vitalidad. Cada sorbo de Elixir Energético te proporciona un impulso natural, perfecto para afrontar tus actividades diarias con mayor vigor y entusiasmo."
             )}
           </p>
         </div>
@@ -152,20 +158,26 @@ const Home = () => {
         </div>
       </section>
       <section className="banner-section">
-        <img src="/banner.png" alt="banner" className="banner-image" />
+        {banners.map((banner, index) => (
+          <img key={index} src={banner} alt={`Banner ${index + 1}`} className="banner-image" />
+        ))}
       </section>
 
       <section className="about-us-content">
         <h2 className="section-title">{t("Sobre Nosotros")}</h2>
-        <div className="about-us-text">
-          <h3>{t("Nuestra Misión")}</h3>
-          <p>
-            {t(
-              "Nuestra misión es ofrecer productos sanos y naturales que mejoren la energía y el bienestar de nuestros clientes, promoviendo un estilo de vida activo y equilibrado. Nos comprometemos a ofrecer alimentos de alta calidad, ricos en nutrientes y sabrosos que apoyen los objetivos de salud y forma física de nuestra comunidad."
-            )}
-          </p>
+        <div className="about-us-row">
+          <div className="about-us-text">
+            <h3>{t("Nuestra Misión")}</h3>
+            <p>
+              {t(
+                "Nuestra misión es ofrecer productos sanos y naturales que mejoren la energía y el bienestar de nuestros clientes, promoviendo un estilo de vida activo y equilibrado. Nos comprometemos a ofrecer alimentos de alta calidad, ricos en nutrientes y sabrosos que apoyen los objetivos de salud y forma física de nuestra comunidad."
+              )}
+            </p>
+          </div>
+          <img src="/m1.jpeg" alt="Misión" className="about-us-image" />
         </div>
-        <div className="about-us-bottom">
+        <div className="about-us-row">
+          <img src="/v1.jpeg" alt="Visión" className="about-us-image" />
           <div className="about-us-text">
             <h3>{t("Nuestra Visión")}</h3>
             <p>
@@ -174,6 +186,8 @@ const Home = () => {
               )}
             </p>
           </div>
+        </div>
+        <div className="about-us-row">
           <div className="about-us-text">
             <h3>{t("Valores")}</h3>
             <p>
@@ -195,6 +209,7 @@ const Home = () => {
               )}
             </p>
           </div>
+          <img src="/v2.jpeg" alt="Valores" className="about-us-image" />
         </div>
       </section>
       <Footer />

@@ -5,6 +5,7 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translation: {
+        "Energía Natural en Cada Botella!":"Natural Energy in Every Bottle!",
         "Idioma": "Languaje",
         "Español":"Spanish",
         "Ingles":"English",
@@ -60,17 +61,23 @@ i18n.use(initReactI18next).init({
         "Calidad":"Quality",
         "Innovación":"Innovation",
         "Compromiso":"Commitment",
-        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"50 ml energy drink made with turmeric, lemon, pepper and orange. Rich in vitamins, it helps you start the day with energy.",
+        "Nuestro producto estrella de la empresa, una bebida energética de 50 ml cuidadosamente elaborada con ingredientes naturales como cúrcuma, limón, pimienta y naranja. Esta poderosa combinación no solo es rica en vitaminas, sino que también está diseñada para ayudarte a comenzar el día con energía y vitalidad. Cada sorbo de Elixir Energético te proporciona un impulso natural, perfecto para afrontar tus actividades diarias con mayor vigor y entusiasmo.":"Our company's flagship product, a 50 ml energy drink carefully crafted with natural ingredients such as turmeric, lemon, pepper and orange. This powerful combination is not only rich in vitamins, but also designed to help you start your day with energy and vitality. Each sip of Energy Elixir gives you a natural boost, perfect for tackling your daily activities with greater vigor and enthusiasm.",
         "Elixir Energético":"Energy Elixir",
         "Avena Frutal":"Fruit Oatmeal",
         "Sandwich Integral":"Whole Wheat Sandwich",
         "Batido de Naranja":"Orange Smoothie",
         "Batido de Piña":"Orange Smoothie",
-        "Waffle 0":"Waffle 0"
+        "Waffle 0":"Waffle 0",
+        "Nuestros Productos":"Our Products ",
+        "Sobre Nosotros":"About Us",
+        "Diseño y desarrollo por Sano pero Rico":"Design and development by Sano pero Rico",
+        "Energía natural sabor Real!":"Natural energy with Real taste!",
+        "100% naturales, sin aditivos ni conservantes.":"100% natural, without additives or preservatives."
       }
     },
     es: {
       translation: {
+        "Energía Natural en Cada Botella!":"Energía Natural en Cada Botella!",
         "Home": "Inicio",
         "Acerca de Nosotros": "Acerca de Nosotros",
         "Idioma": "Idioma",
@@ -126,17 +133,23 @@ i18n.use(initReactI18next).init({
         "Calidad":"Calidad",
         "Innovación":"Innovación",
         "Compromiso":"Compromiso",
-        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.",
+        "Nuestro producto estrella de la empresa, una bebida energética de 50 ml cuidadosamente elaborada con ingredientes naturales como cúrcuma, limón, pimienta y naranja. Esta poderosa combinación no solo es rica en vitaminas, sino que también está diseñada para ayudarte a comenzar el día con energía y vitalidad. Cada sorbo de Elixir Energético te proporciona un impulso natural, perfecto para afrontar tus actividades diarias con mayor vigor y entusiasmo.":"Nuestro producto estrella de la empresa, una bebida energética de 50 ml cuidadosamente elaborada con ingredientes naturales como cúrcuma, limón, pimienta y naranja. Esta poderosa combinación no solo es rica en vitaminas, sino que también está diseñada para ayudarte a comenzar el día con energía y vitalidad. Cada sorbo de Elixir Energético te proporciona un impulso natural, perfecto para afrontar tus actividades diarias con mayor vigor y entusiasmo.",
         "Elixir Energético":"Elixir Energético",
         "Avena Frutal":"Avena Frutal",
         "Sandwich Integral":"Sandwich Integral",
         "Batido de Naranja":"Batido de Naranja",
         "Batido de Piña":"Batido de Piña",
-        "Waffle 0":"Waffle 0"
+        "Waffle 0":"Waffle 0",
+        "Nuestros Productos":"Nuestros Productos",
+        "Sobre Nosotros":"Sobre Nosotros",
+        "Diseño y desarrollo por Sano pero Rico":"Diseño y desarrollo por Sano pero Rico",
+        "Energía natural sabor Real!":"Energía natural sabor Real!",
+        "100% naturales, sin aditivos ni conservantes.":"100% naturales, sin aditivos ni conservantes."
       }
     },
     nl: {
       translation: {
+        "Energía Natural en Cada Botella!":"Natuurlijke energie in elke fles!",
         "Home": "Home",
         "Acerca de Nosotros": "Over ons",
         "Idioma": "Taal",
@@ -147,7 +160,7 @@ i18n.use(initReactI18next).init({
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruit en groenten en niets anders, in een 100% gerecyclede fles.",
         "Ir a comprar": "Nu kopen",
         "Come sano pero rico.": "Eet gezond maar lekker",
-        "100% Natural": "100% natuurlijke",
+        "100% Natural": "100% Natuurlijke",
         "Ver más": "Bekijk meer",
         "Energía Natural en Cada Botella!": "Natuurlijke energie in elke fles!",
         "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Voed je lichaam met onze koudgeperste sappen.",
@@ -192,13 +205,18 @@ i18n.use(initReactI18next).init({
         "Calidad":"Kwaliteit",
         "Innovación":"Innovatie",
         "Compromiso":"Verbintenis",
-        "Bebida energética de 50 ml elaborada con cúrcuma, limón, pimienta y naranja. Rica en vitaminas, te ayuda a comenzar el día con energía.":"50 ml energiedrank op basis van kurkuma, citroen, peper en sinaasappel. Rijk aan vitamines, helpt je de dag energiek te beginnen.",
+        "Nuestro producto estrella de la empresa, una bebida energética de 50 ml cuidadosamente elaborada con ingredientes naturales como cúrcuma, limón, pimienta y naranja. Esta poderosa combinación no solo es rica en vitaminas, sino que también está diseñada para ayudarte a comenzar el día con energía y vitalidad. Cada sorbo de Elixir Energético te proporciona un impulso natural, perfecto para afrontar tus actividades diarias con mayor vigor y entusiasmo.":"Ons paradepaardje, een energiedrankje van 50 ml dat zorgvuldig is samengesteld met natuurlijke ingrediënten zoals kurkuma, citroen, peper en sinaasappel. Deze krachtige combinatie is niet alleen rijk aan vitamines, maar is ook ontworpen om je te helpen je dag met energie en vitaliteit te beginnen. Elke slok Energy Elixir geeft je een natuurlijke boost, perfect om je dagelijkse activiteiten met meer kracht en enthousiasme aan te pakken.",
         "Elixir Energético":"Energie Elixer",
         "Avena Frutal":"Fruit Havermout",
         "Sandwich Integral":"Volkoren boterham",
         "Batido de Naranja":"Sinaasappel Smoothie",
         "Batido de Piña":"Ananas Smoothie",
-        "Waffle 0":"Wafel 0"
+        "Waffle 0":"Wafel 0",
+        "Nuestros Productos":"Onze producten",
+        "Sobre Nosotros":"Over ons",
+        "Diseño y desarrollo por Sano pero Rico":"Ontwerp en ontwikkeling door Sano pero Rico",
+        "Energía natural sabor Real!":"Natuurlijke energie met een echte smaak!",
+        "100% naturales, sin aditivos ni conservantes.":"100% natuurlijk, zonder toevoegingen of conserveringsmiddelen."
       }
     },
   },
