@@ -1,31 +1,38 @@
-import React from "react";
+import React, { useEffect } from "react";
 import MultiCarousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { useTranslation } from "react-i18next";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Home.css";
 
 const Home = () => {
   const { t } = useTranslation();
 
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: false });
+    AOS.refresh();
+  }, []);
+
   const slides = [
     {
       image: "/1.png",
-      title: t("100% Natural"),
-      text: t("Come sano pero rico."),
+      title: t("100% Natural y Saludable"),
+      text: t("Come sano pero rico, con ingredientes frescos."),
       buttonText: t("Ver más"),
     },
     {
-      image: "/2.jpg",
-      title: t("Energía natural sabor Real!"),
-      text: t("100% naturales, sin aditivos ni conservantes."),
+      image: "/2caru.png",
+      title: t("Energía Natural, Sabor Real!"),
+      text: t("100% naturales, sin aditivos ni conservantes, siempre frescos."),
       buttonText: t("Ver más"),
     },
     {
       image: "/3.jpg",
       title: t("Energía Natural en Cada Botella!"),
-      text: t("Nutre tu cuerpo con nuestros jugos prensados en frío."),
+      text: t("Nutre tu cuerpo con nuestros jugos prensados en frío y deliciosos."),
       buttonText: t("Ver más"),
     },
   ];
@@ -77,6 +84,7 @@ const Home = () => {
     "/banner1.png",
     "/banner2.png",
     "/banner3.png",
+    "/banner4.png",
   ];
 
   const responsive = {
@@ -128,7 +136,7 @@ const Home = () => {
           ))}
         </MultiCarousel>
       </header>
-      <section className="logo-section">
+      <section className="logo-section limited-width-container" data-aos="fade-up">
         <img src="/10.png" alt="Logo" className="logo-image" />
         <div className="logo-text">
           <h2>{t("Elixir Energético")}</h2>
@@ -139,7 +147,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      <section className="products-section">
+      <section className="products-section limited-width-container" data-aos="fade-up">
         <h2 className="section-title">{t("Nuestros Productos")}</h2>
         <div className="product-list">
           {products.map((product, index) => (
@@ -157,15 +165,15 @@ const Home = () => {
           ))}
         </div>
       </section>
-      <section className="banner-section">
+      <section className="banner-section limited-width-container" data-aos="fade-up">
         {banners.map((banner, index) => (
           <img key={index} src={banner} alt={`Banner ${index + 1}`} className="banner-image" />
         ))}
       </section>
 
-      <section className="about-us-content">
+      <section className="about-us-content limited-width-container">
         <h2 className="section-title">{t("Sobre Nosotros")}</h2>
-        <div className="about-us-row">
+        <div className="about-us-row" data-aos="fade-up">
           <div className="about-us-text">
             <h3>{t("Nuestra Misión")}</h3>
             <p>
@@ -176,7 +184,7 @@ const Home = () => {
           </div>
           <img src="/m1.jpeg" alt="Misión" className="about-us-image" />
         </div>
-        <div className="about-us-row">
+        <div className="about-us-row" data-aos="fade-up" data-aos-delay="200">
           <img src="/v1.jpeg" alt="Visión" className="about-us-image" />
           <div className="about-us-text">
             <h3>{t("Nuestra Visión")}</h3>
@@ -187,7 +195,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="about-us-row">
+        <div className="about-us-row" data-aos="fade-up" data-aos-delay="300">
           <div className="about-us-text">
             <h3>{t("Valores")}</h3>
             <p>

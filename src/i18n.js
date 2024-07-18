@@ -15,11 +15,10 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "The Best Cold Pressed Juices in All of Chile!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruit and vegetables and nothing else, in a 100% recycled bottle.",
         "Ir a comprar": "Shop Now",
-        "Come sano pero rico.": "Eat healthy but tasty!",
-        " 100% natural": "100% natural",
+        "Come sano pero rico, con ingredientes frescos.": "Eat healthy but tasty!",
+        " 100% Natural y Saludable": "100% Natural y Saludable",
         "Ver más": "See More",
-        "Energía Natural en Cada Botella!": "Natural Energy in Every Bottle!",
-        "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Nourish your body with our cold-pressed juices.",
+        "Nutre tu cuerpo con nuestros jugos prensados en frío y deliciosos.": "Nourish your body with our cold-pressed juices.",
         "Comprar ahora": "Buy Now",
         "Hipster Beet": "Hipster Beet",
         "Celery Boost": "Celery Boost",
@@ -72,7 +71,7 @@ i18n.use(initReactI18next).init({
         "Sobre Nosotros":"About Us",
         "Diseño y desarrollo por Sano pero Rico":"Design and development by Sano pero Rico",
         "Energía natural sabor Real!":"Natural energy with Real taste!",
-        "100% naturales, sin aditivos ni conservantes.":"100% natural, without additives or preservatives."
+        "100% Natural y Saludablees, sin aditivos ni conservantes.":"100% Natural y Saludable, without additives or preservatives."
       }
     },
     es: {
@@ -87,11 +86,10 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "Los Jugos Prensados en Frío Más Ricos de Todo Chile!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruta y verdura y nada más, en una botella 100% reciclada.",
         "Ir a comprar": "Ir a comprar",
-        "Come sano pero rico.": "Come sano pero rico.",
-        "100% natural": "100% natural",
+        "Come sano pero rico, con ingredientes frescos.": "Come sano pero rico, con ingredientes frescos.",
+        "100% Natural y Saludable": "100% Natural y Saludable",
         "Ver más": "Ver más",
-        "Energía Natural en Cada Botella!": "Energía Natural en Cada Botella!",
-        "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Nutre tu cuerpo con nuestros jugos prensados en frío.",
+        "Nutre tu cuerpo con nuestros jugos prensados en frío y deliciosos.": "Nutre tu cuerpo con nuestros jugos prensados en frío y deliciosos.",
         "Comprar ahora": "Comprar ahora",
         "Hipster Beet": "Hipster Beet",
         "Celery Boost": "Celery Boost",
@@ -144,7 +142,7 @@ i18n.use(initReactI18next).init({
         "Sobre Nosotros":"Sobre Nosotros",
         "Diseño y desarrollo por Sano pero Rico":"Diseño y desarrollo por Sano pero Rico",
         "Energía natural sabor Real!":"Energía natural sabor Real!",
-        "100% naturales, sin aditivos ni conservantes.":"100% naturales, sin aditivos ni conservantes."
+        "100% Natural y Saludablees, sin aditivos ni conservantes.":"100% Natural y Saludablees, sin aditivos ni conservantes."
       }
     },
     nl: {
@@ -159,11 +157,10 @@ i18n.use(initReactI18next).init({
         "Los Jugos Prensados en Frío Más Ricos de Todo Chile!": "De beste koudgeperste sappen van heel Chili!",
         "Fruta y verdura y nada más, en una botella 100% reciclada.": "Fruit en groenten en niets anders, in een 100% gerecyclede fles.",
         "Ir a comprar": "Nu kopen",
-        "Come sano pero rico.": "Eet gezond maar lekker",
-        "100% Natural": "100% Natuurlijke",
+        "Come sano pero rico, con ingredientes frescos.": "Eet gezond maar lekker",
+        "100% Natural y Saludable": "100% Natuurlijke",
         "Ver más": "Bekijk meer",
-        "Energía Natural en Cada Botella!": "Natuurlijke energie in elke fles!",
-        "Nutre tu cuerpo con nuestros jugos prensados en frío.": "Voed je lichaam met onze koudgeperste sappen.",
+        "Nutre tu cuerpo con nuestros jugos prensados en frío y deliciosos.": "Voed je lichaam met onze koudgeperste sappen.",
         "Comprar ahora": "Nu kopen",
         "Hipster Beet": "Hipster Biet",
         "Celery Boost": "Selderij Boost",
@@ -215,8 +212,8 @@ i18n.use(initReactI18next).init({
         "Nuestros Productos":"Onze producten",
         "Sobre Nosotros":"Over ons",
         "Diseño y desarrollo por Sano pero Rico":"Ontwerp en ontwikkeling door Sano pero Rico",
-        "Energía natural sabor Real!":"Natuurlijke energie met een echte smaak!",
-        "100% naturales, sin aditivos ni conservantes.":"100% natuurlijk, zonder toevoegingen of conserveringsmiddelen."
+        "Energía Natural, Sabor Real!":"Natuurlijke energie met een echte smaak!",
+        "100% naturales, sin aditivos ni conservantes, siempre frescos.":"100% natuurlijk, zonder toevoegingen of conserveringsmiddelen."
       }
     },
   },
