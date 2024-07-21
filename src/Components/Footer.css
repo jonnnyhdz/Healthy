@@ -22,7 +22,7 @@
 }
 
 .footer-section {
-  max-width: 200px;
+  max-width: 250px; /* Increase the width to make the sections less crowded */
   margin: 20px;
   text-align: left;
 }
@@ -33,7 +33,7 @@
 }
 
 .footer-section p {
-  margin: 5px 5px;
+  margin: 5px 0; /* Adjust the margins for better spacing */
 }
 
 .footer-icons {
@@ -69,14 +69,10 @@
   margin-top: 10px;
 }
 
-.payment-visa {
-  width: 60px;
-  height: 20px;
-}
-
+.payment-visa,
 .payment-master {
   width: 60px;
-  height: 25px;
+  height: 20px;
 }
 
 .payment-icon {
@@ -94,7 +90,7 @@
 .newsletter-form input {
   padding: 10px;
   border: none;
-  border-radius: 20px 0 0 20px;
+  border-radius: 25px 0 0 25px; /* More rounded corners */
   outline: none;
 }
 
@@ -103,7 +99,7 @@
   background-color: #229e9e;
   color: white;
   border: none;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 25px 25px 0; /* More rounded corners */
   cursor: pointer;
 }
 
@@ -113,4 +109,82 @@
 
 .section-title {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.form-g input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 25px; /* More rounded corners */
+}
+
+.form-group .error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-b {
+  padding: 8px 15px; 
+  background-color: #229e9e;
+  color: white;
+  border: none;
+  border-radius: 25px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-b:hover {
+  background-color: #1a7a7a;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #229e9e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #1a7a7a;
 }

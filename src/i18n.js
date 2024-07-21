@@ -120,6 +120,11 @@ i18n.use(initReactI18next).init({
         "El correo electrónico no es válido": "Email is not valid",
         "El teléfono es requerido": "Phone is required",
         "El teléfono debe contener solo números": "Phone must contain only numbers",
+        "Somos Pet-Friendly":"We are Pet-Friendly",
+        "contacto":"contact",
+        "Recibe promociones":"Receive promotions",
+        "oʇɔɐʇuoɔ":"contact",
+        "En nuestra empresa, nos enorgullece ser un lugar amigable para las mascotas. Creemos que nuestras queridas mascotas también son parte de la familia y merecen un ambiente acogedor y amigable. ¡Aquí algunas de las adorables mascotas que nos han visitado!":"At our company, we pride ourselves on being a pet-friendly place. We believe that our beloved pets are also part of the family and deserve a welcoming and friendly environment. Here are some of the adorable pets that have visited us!",
       }
     },
     es: {
@@ -239,6 +244,12 @@ i18n.use(initReactI18next).init({
         "El correo electrónico no es válido": "El correo electrónico no es válido",
         "El teléfono es requerido": "El teléfono es requerido",
         "El teléfono debe contener solo números": "El teléfono debe contener solo números",
+        "Somos Pet-Friendly":"Somos Pet-Friendly",
+        "Recibe promociones":"Recibe promociones",
+        "contacto":"contacto",
+        "oʇɔɐʇuoɔ":"contacto",
+        "En nuestra empresa, nos enorgullece ser un lugar amigable para las mascotas. Creemos que nuestras queridas mascotas también son parte de la familia y merecen un ambiente acogedor y amigable. ¡Aquí algunas de las adorables mascotas que nos han visitado!":"En nuestra empresa, nos enorgullece ser un lugar amigable para las mascotas. Creemos que nuestras queridas mascotas también son parte de la familia y merecen un ambiente acogedor y amigable. ¡Aquí algunas de las adorables mascotas que nos han visitado!",
+
       }
     },
     nl: {
@@ -350,7 +361,7 @@ i18n.use(initReactI18next).init({
         "└ Sí, contamos con una variedad de productos veganos hechos con ingredientes completamente de origen vegetal.": "└ Ja, we bieden een verscheidenheid aan veganistische producten gemaakt met volledig plantaardige ingrediënten.",
         "¿Cómo puedo realizar un pedido?": "Hoe kan ik een bestelling plaatsen?",
         "└ Puedes realizar tu pedido a través de nuestra página web o visitando cualquiera de nuestras tiendas físicas.": "└ U kunt uw bestelling plaatsen via onze website of door een van onze fysieke winkels te bezoeken.",
-        "Correo: sano.pero.rico@gmail.com":"E-mail: sano.pero.rico@gmail.com",
+        "Correo: HealthyButTasty@gmail.com":"E-mail: HealthyButTasty@gmail.com",
         "Teléfono: 9984039887":"Telefoon: 9984039887",
         "Cerrar":"Sluiten",
         "El nombre es requerido": "Naam is verplicht",
@@ -358,6 +369,12 @@ i18n.use(initReactI18next).init({
         "El correo electrónico no es válido": "E-mail is niet geldig",
         "El teléfono es requerido": "Telefoon is verplicht",
         "El teléfono debe contener solo números": "Telefoon mag alleen cijfers bevatten",
+        "Ingresa tu correo Electrónico":"Voer uw e-mailadres in",
+        "contacto":"contact",
+        "oʇɔɐʇuoɔ":"contact",
+        "Recibe promociones":"Promoties ontvangen",
+        "Somos Pet-Friendly":"We zijn huisdiervriendelijk",
+        "En nuestra empresa, nos enorgullece ser un lugar amigable para las mascotas. Creemos que nuestras queridas mascotas también son parte de la familia y merecen un ambiente acogedor y amigable. ¡Aquí algunas de las adorables mascotas que nos han visitado!":"Bij ons bedrijf zijn we er trots op dat we huisdiervriendelijk zijn. We geloven dat onze geliefde huisdieren ook deel uitmaken van de familie en een gastvrije en vriendelijke omgeving verdienen. Hier zijn enkele van de schattige huisdieren die ons hebben bezocht!"
       }
     },
   },
