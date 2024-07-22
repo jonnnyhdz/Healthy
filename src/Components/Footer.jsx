@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>{t('Contacto')}</h3>
-          <p>{t('sano.pero.rico@gmail.com')}</p>
+          <p>{t('HealthyButTasty@gmail.com')}</p>
           <p>{t('9984039887')}</p>
         </div>
         <div className="footer-section">

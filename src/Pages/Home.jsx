@@ -135,7 +135,7 @@ const Home = () => {
     },
   ];
 
-  const banners = ["/banner1.png", "/banner2.png", "/banner3.png", "/banner4.png"];
+  const banners = ["/banner1.png", "/banner2.png", "/banner3.png", "/petf.jpeg"];
 
   const responsive = {
     superLargeDesktop: {
