@@ -1,54 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaWhatsapp, FaFacebookF, FaInstagram } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './Footer.css';
-import { CSSTransition } from 'react-transition-group';
 
 const Footer = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({
-    email: "",
-  });
-  const [errors, setErrors] = useState({});
-  const [showSuccessModal, setShowSuccessModal] = useState(false);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    if (name === "email") {
-      setFormData({
-        ...formData,
-        [name]: value,
-      });
-    }
-  };
-
-  const validateForm = () => {
-    let formErrors = {};
-    let valid = true;
-
-    if (!formData.email) {
-      formErrors.email = t("El correo electrónico es requerido");
-      valid = false;
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      formErrors.email = t("El correo electrónico no es válido");
-      valid = false;
-    }
-
-    setErrors(formErrors);
-    return valid;
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (validateForm()) {
-      setShowSuccessModal(true);
-      setFormData({
-        email: "",
-      });
-      setErrors({});
-    }
-  };
 
   return (
     <footer className="footer">
@@ -81,8 +37,8 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <h3>{t('Contacto')}</h3>
-          <p>{t('HealthyButTasty@gmail.com')}</p>
-          <p>{t('+52 998 403 9887')}</p>
+          <p>{t('sano.pero.rico@gmail.com')}</p>
+          <p>{t('9984039887')}</p>
         </div>
         <div className="footer-section">
           <h3>{t('Información')}</h3>
@@ -98,48 +54,14 @@ const Footer = () => {
               <img src="/visa.png" alt="Visa" className="payment-icon" />
             </div>
             <div className="payment-master">
-              <img src="/master.png" alt="Mastercard" className="payment-icon" />
+              <img src="master.png" alt="Mastercard" className="payment-icon" />
             </div>
           </div>
-        </div>
-        <div className="footer-section">
-          <h3>{t("Recibe promociones")}</h3>
-          <form className="lead-form" onSubmit={handleSubmit}>
-            <div className="form-g">
-              <input
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder={t("Ingresa tu correo Electrónico")}
-                className={errors.email ? "error" : ""}
-              />
-              {errors.email && <span className="error-text">{errors.email}</span>}
-            </div>
-            <div className="button-wrapper">
-              <button type="submit" className="submit-b">{t("Enviar")}</button>
-            </div>
-          </form>
         </div>
       </div>
       <div className="footer-bottom">
         <p>© 2024 {t('Sano Pero Rico')} | {t('Diseño y desarrollo por Sano pero Rico')}</p>
       </div>
-
-      <CSSTransition
-        in={showSuccessModal}
-        timeout={300}
-        classNames="modal"
-        unmountOnExit
-      >
-        <div className="modal-overlay" onClick={() => setShowSuccessModal(false)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h2>{t("Correo enviado correctamente")}</h2>
-            <img src="/check.webp" alt="Success" />
-            <button onClick={() => setShowSuccessModal(false)}>{t("Cerrar")}</button>
-          </div>
-        </div>
-      </CSSTransition>
     </footer>
   );
 };

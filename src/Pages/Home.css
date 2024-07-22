@@ -446,7 +446,7 @@
 /* FAQ section */
 .faq-section {
   padding: 60px 20px;
-  background: linear-gradient(to right, #fff 0%, #c9f8e4 50%, #fff 100%);
+  background: linear-gradient(to right, #fff 0%, #cff4ac 50%, #fff 100%);
 }
 
 .faq-item {
@@ -463,61 +463,95 @@
   color: #727272;
 }
 
-/* Lead capture section */
 .lead-capture-section {
   padding: 60px 20px;
-  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead-capture-content {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.lead-capture-text {
+  flex: 1;
+}
+
+.lead-capture-text h2 {
+  font-size: 2em;
+  color: #000000;
+}
+
+.lead-capture-text p {
+  font-size: 1em;
+  color: #666;
+  max-width: 400px;
+  margin-top: 20px; 
+}
+
+.lead-form-container {
+  flex: 1;
 }
 
 .lead-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 38px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.358);
+}
+
+.lead-form .form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.lead-form .form-group {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: left;
+}
+
+.lead-form .form-group label {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+  color: #333333;
+}
+
+.lead-form .form-group input,
+.lead-form .form-group textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  background-color: #d7f9f38a;
+}
+
+.lead-form .form-group textarea {
+  resize: vertical;
+  height: 100px;
 }
 
 .lead-form .submit-button {
-  font-size: 16px;
-  background: #7aeace;
+  font-size: 1em;
+  background: #28a745;
   border: none;
-  padding: 8px 16px;
-  color: #000;
+  padding: 12px 20px;
+  color: #fff;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 35px;
   transition: background-color 0.3s ease;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  width: auto; 
-  align-self: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .lead-form .submit-button:hover {
-  background: #69c6af;
-}
-
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group label {
-  margin-bottom: 5px;
-  font-size: 16px;
-  color: #2F2F2F;
-}
-
-.form-group input,
-.form-group textarea {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form-group textarea {
-  resize: vertical;
+  background: #218838;
 }
 
 .error {
@@ -526,8 +560,18 @@
 
 .error-text {
   color: #ff0000;
-  font-size: 14px;
+  font-size: 0.8em;
   margin-top: 5px;
+}
+
+.success-message {
+  font-size: 1.2em;
+  color: #28a745;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 38px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.358);
 }
 
 /* Contact bubble */
@@ -593,43 +637,4 @@
   margin: 10px;
 }
 
-/* CSS */
-.section-pet {
-  text-align: center;
-  margin-top: 40px;
-}
 
-.pet-friendly-section {
-  margin-top: 20px;
-}
-
-.pet-friendly-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.pet-friendly-text-container {
-  flex: 1;
-  max-width: 600px;
-  padding-right: 20px;
-}
-
-.pet-friendly-text {
-  margin-bottom: 20px;
-  font-size: 1.2em;
-  text-align: justify;
-}
-
-.pet-friendly-image-container {
-  flex: 1;
-  max-width: 400px;
-}
-
-.pet-friendly-image {
-  width: 300px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 10px;
-}
